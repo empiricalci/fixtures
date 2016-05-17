@@ -1,3 +1,3 @@
 # Fixtures
 
-Just a colletion of fixtures used for tests
+Just a collection of fixtures used for tests
