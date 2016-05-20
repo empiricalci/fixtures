@@ -13,6 +13,7 @@
     "head_sha" : "d282a33749809e36f4c9d6eb820dd82990b2ce3b",
     "head_msg" : "Update empirical.yml",
     "label" : "VJsNP7PCe",
+    "evaluator":"empirical-bot/my-evaluator:4JDL-aGgW",
     "__v" : 0
   },
   {
@@ -64,8 +65,7 @@
     "head_sha":"1e2495d20c13dfcc40f8a22273bc73c9e93c5a92",
     "head_msg":"Update empirical.py",
     "image": "empiricaladmin/5719d236fe781303004ecea9",
-    "label":"4JDL-aGgW",
-    "full_name":"empirical-bot/my-evaluator:4JDL-aGgW"
+    "label":"4JDL-aGgW"
   },
   {
     "_id" : "56fe1f7d4cd9176e48b5541f",
