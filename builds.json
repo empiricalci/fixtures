@@ -103,5 +103,21 @@
     "head_msg" : "Read data from files",
     "label" : "r1Q7q9YM",
     "__v" : 0
+  },
+  {
+    "_id" : "5741796e2799482b002aa493",
+    "status" : "success",
+    "user_id" : "56fa1e9c444d666624705d15",
+    "project_id" : "56fddb56dfd861823922c48d",
+    "project_name" : "hello-world",
+    "project_owner" : "administrator",
+    "project_interface" : "standalone",
+    "ssh_url" : "git@github.com:empiricalci/hello-world.git",
+    "https_url" : "https://github.com/empiricalci/hello-world.git",
+    "branch" : "save-to-workspace",
+    "head_sha" : "e385a63abf281e378806db74603878e1c5d73022",
+    "head_msg" : "Save results to /workspace too",
+    "label" : "SywuYx17",
+    "__v" : 0
   }
 ]
