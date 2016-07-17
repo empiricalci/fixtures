@@ -1,4 +1,3 @@
-import empirical
 import csv
 
 # Define and Instantiate Solver
@@ -22,14 +21,12 @@ def read_answers():
 
 # Send problems to solvers
 dataset = read_data()
-print 'data:', dataset
 solutions = []
 for problem in dataset:
     solutions.append(solver.solve(*problem))
 
 # Evaluate solutions against ground truth
 answers = read_answers()
-print 'answers:', answers
 correct_count = 0
 for i in xrange(len(dataset)):
     if solutions[i] == answers[i]:
@@ -37,17 +34,12 @@ for i in xrange(len(dataset)):
 
 accuracy = correct_count / len(dataset)
 
-# Save results
+# Save overall
 results = {
-    'overall': {
-        'type': 'table',
-        'metric': 'Accuracy',
-        'value': accuracy
-    }
+    'metric': 'Accuracy',
+    'value': accuracy
 }
-empirical.postResults(results)
 
-# Also save them to the workspace
 import json
-with open('/workspace/output.json', 'w') as output:
+with open('/workspace/overall.json', 'w') as output:
     json.dump(results, output)
