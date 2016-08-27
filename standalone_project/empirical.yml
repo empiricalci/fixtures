@@ -1,4 +1,4 @@
-experiments:
+protocols:
   hello-world:
     type: standalone
     environment:
