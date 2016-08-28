@@ -9,13 +9,13 @@ class Solver(object):
 solver = Solver()
 
 def read_data():
-  data_file = '/data/75821d9915567987edd0ff3271e276c922218c638e05efb2955a32c4526abdd9'
+  data_file = '/data/data.csv'
   def to_ints_tuple(row):
     return tuple(map(int, row))
   return map(to_ints_tuple, csv.reader(open(data_file, 'rb'), delimiter=','))
 
 def read_answers():
-   answer_file = '/data/3d7219dab4803e82ad97ece9a49fc25c6fd3762a369236d131cb729f32946ff2'
+   answer_file = '/data/answers.csv'
    ans = list(csv.reader(open(answer_file, 'rb'), delimiter=','))
    return map(lambda x: int(x[0]), ans)
 
